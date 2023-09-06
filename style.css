@@ -1,1 +1,167 @@
+/* Makes all of the top of page have a text and background color */
+header {
+    color: #1b5428;
+    background-color: white;
+}
 
+/* colors text of the nav bar and underlined it  */
+h3 {
+    color: #1b5428 
+    text-decoration: underline;
+    text-align: right;
+    padding-left: 0%;
+
+}
+
+nav {
+    text-align: right;
+    order: 4;
+    display: inline-flex right;
+    /* made row of nav setup for flex-direction:row */
+    flex-direction: row;
+    /* puts nav bar in row */
+    margin-right: auto;
+    margin-left: auto
+        /*width: 100%;
+    height: 100%;*/
+}
+
+/* spreads the individual parts of the nav bar */
+#nav {
+    padding-right: 20px;
+}
+
+/* this allowed the navbar to be aligned to the right of the page in a row */
+
+.nav {
+    display: inline-flex;
+    flex-direction: row;
+    cursor: grab;
+    /*allowed cursor to have pointer finger on nav bar*/
+}
+
+.section {
+    border-style: solid;
+    border-color: #1b5428;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 20px;
+    padding: 40px;
+    margin-right: 20px;
+    padding: 40px;
+}
+
+p {
+    text-align: right;
+
+
+#work {
+    border-style: solid;
+    border-color: #1b5428;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 20px;
+    padding: 40px;
+    font-size: larger;
+    margin-right: 40px;
+    padding: 40px;
+    margin-left: 53px;
+    display:inline-block;
+    margin-right:10px;
+}
+
+
+}
+/* made border come through in the boxes */
+/* #box {
+
+    border-style: solid;
+    border-color: #1b5428;
+    width: 75vh;
+    height: ;
+    padding: 20px;
+    margin: 10px
+} */
+.y{
+    margin:10px;
+
+}
+
+#about-me {
+    border-style: solid;
+    border-color: #1b5428;
+    border-bottom: none;
+    border-left: none;
+    border-top: none;
+    margin-bottom: 20px;
+    padding: 40px;
+    font-size: larger;
+    /* margin-right: 20px; */
+    padding: 40px;
+    font-style: underline;
+}
+
+/* .box {
+    width: 33.3vh;
+    height: 33.3vh;
+} */
+/* 
+.box-x {
+    border: #1b5428 solid 2px;
+    width: 100vh;
+    height: 60vh;
+   margin-left: 60vh;
+}
+ */
+ /* makes bottom picture rom  */
+.bird {
+    height: 33.3vh;
+    width:60vh ;
+    padding: 50px;
+    margin-left: vh;
+    display: flex
+    
+} 
+.contact {
+    text-align: left;
+    margin-top: 25vh;
+    border-right: 10px;
+    border-color: #1b5428;
+
+}
+
+img {
+    height:33.3vh;
+    width:60vh;
+    object-fit:cover;
+    border:solid 10px;
+    border-color: #1b5428;
+    display: flex;
+
+}
+img:hover {
+    background-color: #1b5428;
+}
+/* 
+.box-3{
+    border: solid #1b5428;
+    height: 33.3vh;
+    width: 33.3vh;
+}
+.box-4{
+    border: solid #1b5428;
+    height: 33.3vh;
+    width: 33.3vh;
+} */
+/* first larger photo */
+#diver {
+    width: 100vh;
+    height: 60vh;
+}
+
+/* smaller photos in line from left to right  */
+turtle {
+  margin-left: 10vh;
+}
